@@ -26,8 +26,8 @@ app.post("/webhook", (req, res) => {
       const replyToken = event.replyToken;
       const msg = event.message.text;
 
-      // เช็คว่าผู้ใช้พิมพ์ว่า "ดูดวง"
-      if (msg.includes("ดูดวง")) {
+      // เช็คว่าผู้ใช้พิมพ์ว่า "บริการดูดวง"
+      if (msg.includes("【บริการดูดวง")) {
         replyMessage(replyToken, getFortune());
       }
     }
@@ -38,7 +38,7 @@ app.post("/webhook", (req, res) => {
 
 function replyMessage(replyToken, message) {
   const axios = require("axios");
-  const LINE_ACCESS_TOKEN = "2007395156";
+  const LINE_ACCESS_TOKEN = "d1be52529a3349aa3bcbf0003ae8b2d1";
 
   axios.post(
     "https://api.line.me/v2/bot/message/reply",
