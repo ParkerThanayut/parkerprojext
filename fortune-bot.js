@@ -27,7 +27,7 @@ app.post("/webhook", (req, res) => {
       const msg = event.message.text;
 
       // เช็คว่าผู้ใช้พิมพ์ว่า "บริการดูดวง"
-      if (msg.includes("บริการดูดวง")) {
+      if (msg.includes("ดูดวง")) {
         replyMessage(replyToken, getFortune());
       }
     }
