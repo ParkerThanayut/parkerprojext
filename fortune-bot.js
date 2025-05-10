@@ -38,7 +38,7 @@ app.post("/webhook", (req, res) => {
 
 function replyMessage(replyToken, message) {
   const axios = require("axios");
-  const LINE_ACCESS_TOKEN = "d1be52529a3349aa3bcbf0003ae8b2d1";
+  const LINE_ACCESS_TOKEN = d1be52529a3349aa3bcbf0003ae8b2d1;
 
   axios.post(
     "https://api.line.me/v2/bot/message/reply",
