@@ -1,33 +1,14 @@
 {
-  "name": "parkerprojext-webhook",
+  "name": "Foxy Mystique",
   "version": "1.0.0",
-  "description": "LINE Bot API Webhook",
+  "description": "บริการเยียวยาใจ ดูดวง และแนะนำด้วยพลังบวก",
   "main": "api/webhook.js",
   "scripts": {
     "start": "node api/webhook.js"
   },
-  "author": "Your Name",
+  "author": "Thanayut S.",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.6.7"
-  }
-}
-{
-  "name": "parkerprojext",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "next": "^14.x",
-    "react": "^18.x",
-    "react-dom": "^18.x"
   }
 }
