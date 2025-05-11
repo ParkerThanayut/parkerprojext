@@ -1,19 +1,14 @@
 {
-  "name": "parkerprojext",
+  "name": "parkerprojext-webhook",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "type": "module",  
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+  "description": "LINE Bot API Webhook",
+  "main": "api/webhook.js",
+  "scripts": {
+    "start": "node api/webhook.js"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Your Name",
   "license": "ISC",
   "dependencies": {
-    "next": "^14.x",
-    "react": "^18.x",
-    "react-dom": "^18.x"
+    "axios": "^1.6.7"
   }
 }
