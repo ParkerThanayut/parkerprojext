@@ -1,20 +1,8 @@
-{
-  "name": "parkerprojext",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "type": "module",  <-- เพิ่มบรรทัดนี้
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "next": "^14.x",
-    "react": "^18.x",
-    "react-dom": "^18.x"
+export default function handler(req, res) {
+  if (req.method === 'POST') {
+    // handle POST request
+    res.status(200).send('OK');
+  } else {
+    res.status(405).send('Method Not Allowed');
   }
 }
