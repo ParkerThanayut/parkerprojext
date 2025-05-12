@@ -1,20 +1,14 @@
 {
-  "name": "Foxy Mystique",
+  "name": "foxymystique",
   "version": "1.0.0",
-  "description": "บริการเยียวยาใจ ดูดวง และแนะนำด้วยพลังบวก",
-  "main": "api/webhook.js",
   "scripts": {
-    "start": "node api/webhook.js"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  "author": "Thanayut S.",
-  "license": "ISC",
   "dependencies": {
-    "axios": "^1.6.7"
-  },
-  "type": "module"
-}
-"dependencies": {
-  "next": "^13.0.0",
-  "react": "^18.0.0",
-  "react-dom": "^18.0.0"
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  }
 }
